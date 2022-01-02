@@ -1,6 +1,6 @@
 #! /bin/bash
 
-export VERSION="28"
+export VERSION="29"
 export SYSTEM_DESC="ChimeraOS"
 export SYSTEM_NAME="chimeraos"
 export USERNAME="gamer"
@@ -114,6 +114,8 @@ export PACKAGES="\
 	openal \
 	lib32-openal \
 	wavpack \
+	libcurl-gnutls \
+	libidn11 \
 	chaotic-aur/xow \
 	chaotic-aur/dolphin-emu-git \
 	chaotic-aur/dolphin-emu-nogui-git \
@@ -144,6 +146,7 @@ export AUR_PACKAGES="\
 	srt-live-server \
 	r8152-dkms \
 	xpadneo-dkms \
+	goodix-gpdwin3-dkms \
 "
 
 export SERVICES="\
