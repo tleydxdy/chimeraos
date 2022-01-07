@@ -53,7 +53,7 @@ export PACKAGES="\
 	openssh \
 	diffutils \
 	logrotate \
-	vim \
+	neovim \
 	unzip \
 	which \
 	linux-firmware \
@@ -147,6 +147,7 @@ export AUR_PACKAGES="\
 	r8152-dkms \
 	xpadneo-dkms \
 	goodix-gpdwin3-dkms \
+	rtl8812au-dkms-git \
 "
 
 export SERVICES="\
